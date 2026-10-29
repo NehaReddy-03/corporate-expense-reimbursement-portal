@@ -1,0 +1,20 @@
+{
+  "name": "corporate-expense-reimbursement-portal",
+  "version": "1.0.0",
+  "description": "Multi-tier Corporate Expense Claim & Reimbursement Portal with RBAC, State Machine, and Immutable Audit Trail",
+  "main": "run.py",
+  "scripts": {
+    "start": "python run.py",
+    "seed": "python seed.py --force",
+    "test": "python -m unittest discover tests"
+  },
+  "keywords": [
+    "enterprise-application",
+    "rbac",
+    "state-machine",
+    "expense-reimbursement",
+    "audit-trail"
+  ],
+  "author": "BEA Student",
+  "license": "MIT"
+}
